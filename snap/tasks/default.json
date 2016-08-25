@@ -1,0 +1,40 @@
+{
+    "version": 1,
+    "schedule": {
+        "type": "simple",
+        "interval": "1s"
+    },
+    "workflow": {
+        "collect": {
+            "metrics": {
+                "/intel/exec/status_down": {},
+                "/intel/exec/status_up": {},
+                "/intel/exec/pc_0_100": {},
+                "/intel/exec/pc_low": {},
+                "/intel/exec/pc_maxed": {},
+                "/intel/exec/pc_high": {},
+                "/intel/exec/pc_stable10": {},
+                "/intel/exec/pc_stable23": {},
+                "/intel/exec/pc_spike": {},
+		"/intel/exec/fr_cache": {},
+		"/intel/exec/fr_lat": {},
+		"/intel/exec/fr_proc": {}
+           },
+            "config": {
+            },
+            "process": null,
+            "publish": [
+                {
+                    "plugin_name": "influx",                            
+                    "config": {
+                        "host": "127.0.0.1",
+                        "port": 8086,
+                        "database": "snap",
+                        "user": "admin",
+                        "password": "admin"
+                    }
+                }
+            ]
+        }
+    }
+}

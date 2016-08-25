@@ -1,0 +1,34 @@
+{
+    "version": 1,
+    "schedule": {
+        "type": "simple",
+        "interval": "1s"
+    },
+    "max-failures":10,
+    "workflow": {
+        "collect": {
+            "metrics": {
+                "/intel/exec/fr_n_n1": {},
+                "/intel/exec/fr_n_n2": {},
+                "/intel/exec/fr_n_n3": {},
+                "/intel/exec/fr_n_n4": {},
+                "/intel/exec/fr_n_n5": {}
+           },
+            "config": {
+            },
+            "process": null,
+            "publish": [
+                {
+                    "plugin_name": "influx",                            
+                    "config": {
+                        "host": "127.0.0.1",
+                        "port": 8086,
+                        "database": "snap",
+                        "user": "admin",
+                        "password": "admin"
+                    }
+                }
+            ]
+        }
+    }
+}

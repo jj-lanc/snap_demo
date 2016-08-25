@@ -1,0 +1,71 @@
+{
+    "version": 1,
+    "schedule": {
+        "type": "simple",
+        "interval": "1s"
+    },
+    "max-failures":50,
+    "workflow": {
+        "collect": {
+            "metrics": {
+                "/intel/exec/status_down": {},
+                "/intel/exec/status_up": {},
+                "/intel/exec/pc_0_100": {},
+                "/intel/exec/pc_low": {},
+                "/intel/exec/pc_maxed": {},
+                "/intel/exec/pc_high": {},
+                "/intel/exec/pc_stable10": {},
+                "/intel/exec/pc_stable23": {},
+                "/intel/exec/pc_spike": {},
+                "/intel/exec/fr_c_n1_1": {},
+                "/intel/exec/fr_c_n1_2": {},
+                "/intel/exec/fr_c_n2_1": {},
+                "/intel/exec/fr_c_n2_2": {},
+                "/intel/exec/fr_c_n3_1": {},
+                "/intel/exec/fr_c_n3_2": {},
+                "/intel/exec/fr_c_n4_1": {},
+                "/intel/exec/fr_c_n4_2": {},
+                "/intel/exec/fr_c_n5_1": {},
+                "/intel/exec/fr_c_n5_2": {},
+                "/intel/exec/fr_c_n6_1": {},
+                "/intel/exec/fr_c_n6_2": {},
+                "/intel/exec/fr_d_n1": {},
+                "/intel/exec/fr_d_n2": {},
+                "/intel/exec/fr_d_n3": {},
+                "/intel/exec/fr_d_n4": {},
+                "/intel/exec/fr_d_n5": {},
+                "/intel/exec/fr_d_n6": {},
+                "/intel/exec/fr_t1": {},
+                "/intel/exec/fr_t2": {},
+                "/intel/exec/fr_mem": {},
+                "/intel/exec/fr_n_n1": {},
+                "/intel/exec/fr_n_n2": {},
+                "/intel/exec/fr_n_n3": {},
+                "/intel/exec/fr_n_n4": {},
+                "/intel/exec/fr_n_n5": {},
+                "/intel/exec/fr_mysql_read": {},
+                "/intel/exec/fr_mysql_write": {},
+                "/intel/exec/fr_rmq_mem_other_procs": {},
+                "/intel/exec/fr_rmq_mem_q_procs": {},
+                "/intel/exec/fr_ha_cpu": {},
+                "/intel/exec/fr_ha_net": {},
+                "/intel/exec/fr_ha_disk": {}
+           },
+            "config": {
+            },
+            "process": null,
+            "publish": [
+                {
+                    "plugin_name": "influx",                            
+                    "config": {
+                        "host": "127.0.0.1",
+                        "port": 8086,
+                        "database": "snap",
+                        "user": "admin",
+                        "password": "admin"
+                    }
+                }
+            ]
+        }
+    }
+}

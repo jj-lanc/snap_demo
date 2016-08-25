@@ -1,0 +1,31 @@
+{
+    "version": 1,
+    "schedule": {
+        "type": "simple",
+        "interval": "1s"
+    },
+    "max-failures":10,
+    "workflow": {
+        "collect": {
+            "metrics": {
+                "/intel/exec/dc3_disk1": {},
+                "/intel/exec/dc3_disk2": {}
+           },
+            "config": {
+            },
+            "process": null,
+            "publish": [
+                {
+                    "plugin_name": "influx",                            
+                    "config": {
+                        "host": "127.0.0.1",
+                        "port": 8086,
+                        "database": "snap",
+                        "user": "admin",
+                        "password": "admin"
+                    }
+                }
+            ]
+        }
+    }
+}

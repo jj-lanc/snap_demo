@@ -1,0 +1,282 @@
+{
+     "status_down": {
+            "exec": "/home/user/Desktop/loadgen/generic/0.sh",
+            "type": "int32"
+                },
+     "status_up": {
+            "exec": "/home/user/Desktop/loadgen/generic/1.sh",
+            "type": "int32"
+                },
+     "pc_0_100": {
+            "exec": "/home/user/Desktop/loadgen/generic/0_100.sh",
+            "type": "int32"
+                },
+     "pc_low": {
+            "exec": "/home/user/Desktop/loadgen/generic/low.sh",
+            "type": "int32"
+                },
+     "pc_maxed": {
+            "exec": "/home/user/Desktop/loadgen/generic/maxed.sh",
+            "type": "int32"
+                },
+     "pc_high": {
+            "exec": "/home/user/Desktop/loadgen/generic/high.sh",
+            "type": "int32"
+                },
+     "pc_stable10": {
+            "exec": "/home/user/Desktop/loadgen/generic/stable10.sh",
+            "type": "int32"
+                },
+     "pc_stable23": {
+            "exec": "/home/user/Desktop/loadgen/generic/stable23.sh",
+            "type": "int32"
+                },
+     "pc_spike": {
+            "exec": "/home/user/Desktop/loadgen/generic/spike.sh",
+            "type": "int32"
+                },
+     "fr_cache": {
+            "exec": "/home/user/Desktop/loadgen/fr/fr_cache.sh",
+            "type": "int32"
+                },
+     "fr_proc": {
+            "exec": "/home/user/Desktop/loadgen/fr/fr_proc.sh",
+            "type": "int32"
+                },
+     "fr_lat": {
+            "exec": "/home/user/Desktop/loadgen/fr/fr_lat.sh",
+            "type": "int32"
+                },
+     "fr_c_n1_1": {
+            "exec": "/home/user/Desktop/loadgen/fr/fr_c_n1_1.sh",
+            "type": "int32"
+                },
+     "fr_c_n1_2": {
+            "exec": "/home/user/Desktop/loadgen/fr/fr_c_n1_2.sh",
+            "type": "int32"
+                },
+     "fr_c_n2_1": {
+            "exec": "/home/user/Desktop/loadgen/fr/fr_c_n2_1.sh",
+            "type": "int32"
+                },
+     "fr_c_n2_2": {
+            "exec": "/home/user/Desktop/loadgen/fr/fr_c_n2_2.sh",
+            "type": "int32"
+                },
+     "fr_c_n3_1": {
+            "exec": "/home/user/Desktop/loadgen/fr/fr_c_n3_1.sh",
+            "type": "int32"
+                },
+     "fr_c_n3_2": {
+            "exec": "/home/user/Desktop/loadgen/fr/fr_c_n3_2.sh",
+            "type": "int32"
+                },
+     "fr_c_n4_1": {
+            "exec": "/home/user/Desktop/loadgen/fr/fr_c_n4_1.sh",
+            "type": "int32"
+                },
+     "fr_c_n4_2": {
+            "exec": "/home/user/Desktop/loadgen/fr/fr_c_n4_2.sh",
+            "type": "int32"
+                },
+     "fr_c_n5_1": {
+            "exec": "/home/user/Desktop/loadgen/fr/fr_c_n5_1.sh",
+            "type": "int32"
+                },
+     "fr_c_n5_2": {
+            "exec": "/home/user/Desktop/loadgen/fr/fr_c_n5_2.sh",
+            "type": "int32"
+                },
+     "fr_c_n6_1": {
+            "exec": "/home/user/Desktop/loadgen/fr/fr_c_n6_1.sh",
+            "type": "int32"
+                },
+     "fr_c_n6_2": {
+            "exec": "/home/user/Desktop/loadgen/fr/fr_c_n6_2.sh",
+            "type": "int32"
+                },
+     "fr_t1": {
+            "exec": "/home/user/Desktop/loadgen/fr/fr_t1.sh",
+            "type": "int32"
+                },
+     "fr_t2": {
+            "exec": "/home/user/Desktop/loadgen/fr/fr_t2.sh",
+            "type": "int32"
+                },
+     "fr_mem": {
+            "exec": "/home/user/Desktop/loadgen/fr/fr_mem.sh",
+            "type": "int32"
+                },
+     "fr_d_n1": {
+            "exec": "/home/user/Desktop/loadgen/fr/fr_d_n1.sh",
+            "type": "int32"
+                },
+     "fr_d_n2": {
+            "exec": "/home/user/Desktop/loadgen/fr/fr_d_n2.sh",
+            "type": "int32"
+                },
+     "fr_d_n3": {
+            "exec": "/home/user/Desktop/loadgen/fr/fr_d_n3.sh",
+            "type": "int32"
+                },
+     "fr_d_n4": {
+            "exec": "/home/user/Desktop/loadgen/fr/fr_d_n4.sh",
+            "type": "int32"
+                },
+     "fr_d_n5": {
+            "exec": "/home/user/Desktop/loadgen/fr/fr_d_n5.sh",
+            "type": "int32"
+                },
+     "fr_d_n6": {
+            "exec": "/home/user/Desktop/loadgen/fr/fr_d_n6.sh",
+            "type": "int32"
+                },
+     "fr_n_n1": {
+            "exec": "/home/user/Desktop/loadgen/fr/fr_n_n1.sh",
+            "type": "int32"
+                },
+     "fr_n_n2": {
+            "exec": "/home/user/Desktop/loadgen/fr/fr_n_n2.sh",
+            "type": "int32"
+                },
+     "fr_n_n3": {
+            "exec": "/home/user/Desktop/loadgen/fr/fr_n_n3.sh",
+            "type": "int32"
+                },
+     "fr_n_n4": {
+            "exec": "/home/user/Desktop/loadgen/fr/fr_n_n4.sh",
+            "type": "int32"
+                },
+     "fr_n_n5": {
+            "exec": "/home/user/Desktop/loadgen/fr/fr_n_n5.sh",
+            "type": "int32"
+                },
+     "fr_mysql_read": {
+            "exec": "/home/user/Desktop/loadgen/fr/fr_mysql_read.sh",
+            "type": "int32"
+                },
+     "fr_mysql_write": {
+            "exec": "/home/user/Desktop/loadgen/fr/fr_mysql_write.sh",
+            "type": "int32"
+                },
+     "fr_mysql_cpu1": {
+            "exec": "/home/user/Desktop/loadgen/fr/fr_mysql_cpu1.sh",
+            "type": "int32"
+                },
+     "fr_mysql_cpu2": {
+            "exec": "/home/user/Desktop/loadgen/fr/fr_mysql_cpu2.sh",
+            "type": "int32"
+                },
+     "fr_rmq_mem_other_procs": {
+            "exec": "/home/user/Desktop/loadgen/fr/fr_rmq_mem_other_procs.sh",
+            "type": "int32"
+                },
+     "fr_rmq_mem_q_procs": {
+            "exec": "/home/user/Desktop/loadgen/fr/fr_rmq_mem_q_procs.sh",
+            "type": "int32"
+                },
+     "fr_ha_cpu": {
+            "exec": "/home/user/Desktop/loadgen/fr/fr_ha_cpu.sh",
+            "type": "int32"
+                },
+     "fr_ha_net": {
+            "exec": "/home/user/Desktop/loadgen/fr/fr_ha_net.sh",
+            "type": "int32"
+                },
+     "fr_ha_disk": {
+            "exec": "/home/user/Desktop/loadgen/fr/fr_ha_disk.sh",
+            "type": "int32"
+                },
+     "ls_srv_1": {
+            "exec": "/home/user/Desktop/loadgen/generic/spike.sh",
+            "type": "int32"
+                },
+     "ls_srv_2": {
+            "exec": "/home/user/Desktop/loadgen/generic/low.sh",
+            "type": "int32"
+                },
+     "ls_srv_3": {
+            "exec": "/home/user/Desktop/loadgen/generic/stable10.sh",
+            "type": "int32"
+                },
+     "au_srv_1": {
+            "exec": "/home/user/Desktop/loadgen/generic/spike.sh",
+            "type": "int32"
+                },
+     "au_srv_2": {
+            "exec": "/home/user/Desktop/loadgen/generic/low.sh",
+            "type": "int32"
+                },
+     "au_srv_3": {
+            "exec": "/home/user/Desktop/loadgen/generic/stable10.sh",
+            "type": "int32"
+                },
+     "re_srv_1": {
+            "exec": "/home/user/Desktop/loadgen/generic/spike.sh",
+            "type": "int32"
+                },
+     "re_srv_2": {
+            "exec": "/home/user/Desktop/loadgen/generic/low.sh",
+            "type": "int32"
+                },
+     "re_srv_3": {
+            "exec": "/home/user/Desktop/loadgen/generic/stable10.sh",
+            "type": "int32"
+                },
+     "dc2_cpu1": {
+            "exec": "/home/user/Desktop/loadgen/generic/spike.sh",
+            "type": "int32"
+                },
+     "dc2_cpu2": {
+            "exec": "/home/user/Desktop/loadgen/generic/low.sh",
+            "type": "int32"
+                },
+     "dc2_mem": {
+            "exec": "/home/user/Desktop/loadgen/generic/stable10.sh",
+            "type": "int32"
+                },
+     "dc2_disk1": {
+            "exec": "/home/user/Desktop/loadgen/generic/stable10.sh",
+            "type": "int32"
+                },
+     "dc2_disk2": {
+            "exec": "/home/user/Desktop/loadgen/generic/high.sh",
+            "type": "int32"
+                },
+     "dc2_net1": {
+            "exec": "/home/user/Desktop/loadgen/generic/stable23.sh",
+            "type": "int32"
+                },
+     "dc2_net2": {
+            "exec": "/home/user/Desktop/loadgen/generic/low.sh",
+            "type": "int32"
+                },
+     "dc3_cpu1": {
+            "exec": "/home/user/Desktop/loadgen/generic/spike.sh",
+            "type": "int32"
+                },
+     "dc3_cpu2": {
+            "exec": "/home/user/Desktop/loadgen/generic/low.sh",
+            "type": "int32"
+                },
+     "dc3_mem": {
+            "exec": "/home/user/Desktop/loadgen/generic/stable10.sh",
+            "type": "int32"
+                },
+     "dc3_disk1": {
+            "exec": "/home/user/Desktop/loadgen/generic/stable10.sh",
+            "type": "int32"
+                },
+     "dc3_disk2": {
+            "exec": "/home/user/Desktop/loadgen/generic/high.sh",
+            "type": "int32"
+                },
+     "dc3_net1": {
+            "exec": "/home/user/Desktop/loadgen/generic/stable23.sh",
+            "type": "int32"
+                },
+     "dc3_net2": {
+            "exec": "/home/user/Desktop/loadgen/generic/low.sh",
+            "type": "int32"
+                }
+}

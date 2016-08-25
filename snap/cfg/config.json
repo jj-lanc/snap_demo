@@ -1,0 +1,16 @@
+{
+    "control": {
+		"plugins": {
+        "collector": {
+            "exec": {
+                "all": {
+                    "setfile": "/home/user/Desktop/loadgen/snap/cfg/setfile.json",
+                    "execution_timeout" : 20
+                }
+            }
+        },
+        "publisher": {},
+        "processor": {}
+		}
+    }
+}
